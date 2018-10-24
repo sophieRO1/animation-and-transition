@@ -1,0 +1,150 @@
+/* .box {
+    width: 200px;
+    height: 300px;
+    background: rgb(172, 216, 15);
+    transition: all 100s linear ease-in-out;
+}
+
+.box:hover {
+
+    background: rgb(235, 132, 15);
+    /* transform: rotate(45deg) scale(0.5 , 0.5); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+
+} */ 
+
+/* **************************************** */
+
+/* .box{
+    position: relative;;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background: red;
+        left: 0;
+        top: 0;
+
+    }
+    25% {
+        background: rgb(161, 211, 24);
+        top: 0;
+        left: 200px;
+    }
+    50% {
+        background: rgb(216, 138, 223);
+        top: 200px;
+        left: 200px;
+    }
+    75% {
+        background: rgb(56, 172, 133);
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        background: rgb(10, 9, 97);
+        top: 300px;
+        left: 300px;
+    }
+} */
+
+/* ********************************* */
+/* .box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    transition: all 5s ease-in;
+    animation: animate 4s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+
+        background: #000;
+        transition: all 3s ease-in-out;
+    }
+    100% {
+        background-image: linear-gradient(to right, red , orange, yellow, blue, violet, green);
+        border-radius: 50%;
+    }
+} */
+
+/* ********************************* */
+
+/* traversy media / animation and transition  */
+
+body {
+    background: #333;
+}
+
+/* .box {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: animate 4s linear infinite;
+    transition: all 5s ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        background-color: #fff;
+        left: 0;
+        top: 0;
+        border-radius: 0 0 0 0 ;
+    }
+    25% {
+        background-color: rgb(181, 219, 12);
+        left: 300px;
+        top: 0;
+        border-radius: 50% 0 0 0;
+    }
+    50% {
+        background-color: rgb(65, 39, 136);
+        left: 300px;
+        top: 300px;
+        border-radius: 50% 50% 0 0;
+
+    }
+    75%{
+        background-color: rgb(209, 85, 85);
+        left: 0;
+        top: 300px;
+        border-radius: 50% 50% 50% 0;
+    }
+    100% {
+        background-color: aqua;
+        left: 0;
+        top: 0;
+        border-radius: 50% 50% 50% 50%;
+    }
+} */
+
+
+/*  traversy media / transition  */
+
+.box {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    transition: background 4s ease-in-out;
+
+}
+
+.box:hover {
+    background: red;
+    border-radius: 50%;
+}
